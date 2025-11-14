@@ -79,6 +79,7 @@ class Tournament(Game):
     displayWinner(self.winner, not p2IsP)
     time.sleep(1)
     getResetChoice()
+    
 
 class OneGame(Game):   
   def run(self, p2IsP):
@@ -86,4 +87,5 @@ class OneGame(Game):
     self.runGameEnd(p2IsP)
           
     time.sleep(1)
+
     getResetChoice()
